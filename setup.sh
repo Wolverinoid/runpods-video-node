@@ -84,6 +84,8 @@ cd /app/cnode
 python3.11 -m venv --upgrade /app/cnode/trellisvenv
 python3.11 -m venv --upgrade /app/external/LTX-2/.venv
 
+/app/external/LTX-2/.venv/bin/pip install boto3
+
 echo "Setup complete!"
 
 ./start.sh
